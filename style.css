@@ -2336,3 +2336,105 @@ html {
   border-radius: 8px;
   text-align: center;
 }
+
+/* responsive */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.95rem;
+  }
+  .hero-section {
+    padding: 20px 3%;
+    min-height: 80vh;
+    height: auto;
+  }
+  .hero-content,
+  .hero-visual {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .code-preview {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .main-nav,
+  .footer,
+  .content-section {
+    padding: 20px 3%;
+  }
+  .lesson-card {
+    padding: 12px;
+    font-size: 0.98rem;
+  }
+  .example-container,
+  .code-block,
+  .result-box {
+    padding: 10px;
+  }
+  .demo-title {
+    font-size: 1.7rem;
+  }
+  .demo-class,
+  .demo-id {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  .nav-card,
+  .resource-card {
+    padding: 10px;
+  }
+  .resources-tips {
+    padding: 10px;
+    font-size: 0.97rem;
+  }
+  .color-demo-grid {
+    grid-template-columns: 1fr;
+  }
+  .flex-demo-container,
+  .animation-demo-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+  }
+  .grid-demo-container,
+  .grid-demo {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .responsive-box,
+  .variable-demo,
+  .calc-container,
+  .specificity-demo,
+  .inheritance-parent,
+  .important-demo {
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .hero-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  .btn,
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+  .footer {
+    font-size: 0.85rem;
+    padding: 10px 2%;
+  }
+  .code-header,
+  .code-content {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+}
