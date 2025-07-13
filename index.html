@@ -1,0 +1,4916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete CSS Reference Guide - Professional Landing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="landing-container">
+      <header class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">Complete CSS Reference Guide</h1>
+          <p class="hero-subtitle">
+            Master CSS with our comprehensive reference guide covering all 88
+            essential topics
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">Start Learning</button>
+            <button class="btn btn-secondary">View Examples</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-preview">
+            <div class="code-header">
+              <div class="code-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="code-title">style.css</span>
+            </div>
+            <div class="code-content">
+              <pre><code>.hero-title {
+  color: var(--color-highlight);
+  font-size: 3rem;
+  text-shadow: 0 4px 20px rgba(177, 59, 255, 0.3);
+}
+
+.card {
+  background: var(--color-secondary);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="main-nav">
+        <div class="nav-container">
+          <div class="nav-grid">
+            <!-- Basic CSS -->
+            <a href="#intro" class="nav-card">
+              <div class="nav-icon">🎨</div>
+              <h3>Introduction to CSS</h3>
+              <p>CSS basics, style sheets, selectors</p>
+            </a>
+            <a href="#syntax" class="nav-card">
+              <div class="nav-icon">📝</div>
+              <h3>CSS Syntax and Rules</h3>
+              <p>Syntax, rules, declarations, properties</p>
+            </a>
+            <a href="#selectors" class="nav-card">
+              <div class="nav-icon">🎯</div>
+              <h3>CSS Selectors</h3>
+              <p>Element, class, ID selectors</p>
+            </a>
+            <a href="#grouping" class="nav-card">
+              <div class="nav-icon">🔗</div>
+              <h3>Grouping Selectors</h3>
+              <p>Grouping, descendant, child selectors</p>
+            </a>
+
+            <!-- Colors and Text -->
+            <a href="#colors" class="nav-card">
+              <div class="nav-icon">🌈</div>
+              <h3>CSS Colors</h3>
+              <p>Color names, HEX, RGB, HSL</p>
+            </a>
+            <a href="#text" class="nav-card">
+              <div class="nav-icon">🔤</div>
+              <h3>Text Properties</h3>
+              <p>Font-family, font-size, font-weight, text-align</p>
+            </a>
+            <a href="#fonts" class="nav-card">
+              <div class="nav-icon">📚</div>
+              <h3>Fonts &amp; Text Decoration</h3>
+              <p>Font-style, font-variant, text-decoration</p>
+            </a>
+            <a href="#google-fonts" class="nav-card">
+              <div class="nav-icon">🌐</div>
+              <h3>Google Fonts Integration</h3>
+              <p>@import, font-face, external fonts</p>
+            </a>
+
+            <!-- Box Model and Layout -->
+            <a href="#box-model" class="nav-card">
+              <div class="nav-icon">📦</div>
+              <h3>Box Model</h3>
+              <p>Margin, border, padding, content</p>
+            </a>
+            <a href="#display" class="nav-card">
+              <div class="nav-icon">📱</div>
+              <h3>Display Property</h3>
+              <p>Block, inline, inline-block, none</p>
+            </a>
+            <a href="#box-sizing" class="nav-card">
+              <div class="nav-icon">📏</div>
+              <h3>CSS Box Sizing</h3>
+              <p>Content-box, border-box</p>
+            </a>
+            <a href="#positioning" class="nav-card">
+              <div class="nav-icon">📍</div>
+              <h3>Positioning Elements</h3>
+              <p>Static, relative, absolute, fixed, sticky</p>
+            </a>
+
+            <!-- Float and Layout -->
+            <a href="#float" class="nav-card">
+              <div class="nav-icon">🌊</div>
+              <h3>Float and Clear</h3>
+              <p>Float, clear, clearfix</p>
+            </a>
+            <a href="#units" class="nav-card">
+              <div class="nav-icon">📐</div>
+              <h3>CSS Units</h3>
+              <p>px, em, rem, %, vh, vw</p>
+            </a>
+            <a href="#backgrounds" class="nav-card">
+              <div class="nav-icon">🖼️</div>
+              <h3>CSS Backgrounds</h3>
+              <p>Background-color, background-image, background-position</p>
+            </a>
+            <a href="#borders" class="nav-card">
+              <div class="nav-icon">🔲</div>
+              <h3>Borders</h3>
+              <p>Border-style, border-width, border-color, border-radius</p>
+            </a>
+
+            <!-- Lists and Pseudo -->
+            <a href="#lists" class="nav-card">
+              <div class="nav-icon">📋</div>
+              <h3>Lists Styling</h3>
+              <p>List-style-type, list-style-position</p>
+            </a>
+            <a href="#pseudo-classes" class="nav-card">
+              <div class="nav-icon">🎭</div>
+              <h3>Pseudo-classes</h3>
+              <p>:hover, :focus, :nth-child, :first-child</p>
+            </a>
+            <a href="#pseudo-elements" class="nav-card">
+              <div class="nav-icon">✨</div>
+              <h3>Pseudo-elements</h3>
+              <p>::before, ::after, content</p>
+            </a>
+            <a href="#links" class="nav-card">
+              <div class="nav-icon">🔗</div>
+              <h3>CSS Links Styling</h3>
+              <p>a:hover, a:visited, a:active</p>
+            </a>
+
+            <!-- Visibility and Effects -->
+            <a href="#overflow" class="nav-card">
+              <div class="nav-icon">📜</div>
+              <h3>CSS Overflow</h3>
+              <p>Overflow, overflow-x, overflow-y, scroll</p>
+            </a>
+            <a href="#visibility" class="nav-card">
+              <div class="nav-icon">👁️</div>
+              <h3>CSS Visibility</h3>
+              <p>Visible, hidden, collapse</p>
+            </a>
+            <a href="#opacity" class="nav-card">
+              <div class="nav-icon">🌫️</div>
+              <h3>CSS Opacity</h3>
+              <p>Opacity, transparency</p>
+            </a>
+            <a href="#cursor" class="nav-card">
+              <div class="nav-icon">👆</div>
+              <h3>CSS Cursor</h3>
+              <p>Cursor types, pointer, default, crosshair</p>
+            </a>
+
+            <!-- Z-index and Shadows -->
+            <a href="#z-index" class="nav-card">
+              <div class="nav-icon">📚</div>
+              <h3>CSS Z-index</h3>
+              <p>Stacking context, z-index values</p>
+            </a>
+            <a href="#box-shadow" class="nav-card">
+              <div class="nav-icon">🌑</div>
+              <h3>CSS Box Shadow</h3>
+              <p>Box-shadow, shadow effects</p>
+            </a>
+            <a href="#text-shadow" class="nav-card">
+              <div class="nav-icon">💫</div>
+              <h3>CSS Text Shadow</h3>
+              <p>Text-shadow</p>
+            </a>
+            <a href="#outline" class="nav-card">
+              <div class="nav-icon">📝</div>
+              <h3>CSS Outline</h3>
+              <p>Outline-style, outline-offset</p>
+            </a>
+
+            <!-- Transitions and Animations -->
+            <a href="#transitions" class="nav-card">
+              <div class="nav-icon">🔄</div>
+              <h3>CSS Transitions</h3>
+              <p>Transition-property, transition-duration, timing-function</p>
+            </a>
+            <a href="#animations" class="nav-card">
+              <div class="nav-icon">✨</div>
+              <h3>CSS Animations</h3>
+              <p>@keyframes, animation-name, animation-duration</p>
+            </a>
+            <a href="#timing-functions" class="nav-card">
+              <div class="nav-icon">⏱️</div>
+              <h3>Animation Timing Functions</h3>
+              <p>Linear, ease, ease-in, ease-out</p>
+            </a>
+            <a href="#transition-delays" class="nav-card">
+              <div class="nav-icon">⏰</div>
+              <h3>Transition Delays</h3>
+              <p>Transition-delay</p>
+            </a>
+
+            <!-- Flexbox -->
+            <a href="#flexbox-intro" class="nav-card">
+              <div class="nav-icon">🔄</div>
+              <h3>CSS Flexbox - Introduction</h3>
+              <p>Flex container, flex items</p>
+            </a>
+            <a href="#flex-direction" class="nav-card">
+              <div class="nav-icon">↔️</div>
+              <h3>Flex Direction</h3>
+              <p>Row, column, row-reverse, column-reverse</p>
+            </a>
+            <a href="#justify-content" class="nav-card">
+              <div class="nav-icon">↔️</div>
+              <h3>Justify Content</h3>
+              <p>Flex-start, flex-end, center, space-between</p>
+            </a>
+            <a href="#align-items" class="nav-card">
+              <div class="nav-icon">↕️</div>
+              <h3>Align Items</h3>
+              <p>Stretch, center, flex-start, flex-end</p>
+            </a>
+            <a href="#flex-wrap" class="nav-card">
+              <div class="nav-icon">📦</div>
+              <h3>Flex Wrap</h3>
+              <p>Nowrap, wrap, wrap-reverse</p>
+            </a>
+            <a href="#align-content" class="nav-card">
+              <div class="nav-icon">📐</div>
+              <h3>Align Content</h3>
+              <p>Flex-start, flex-end, center, space-around</p>
+            </a>
+            <a href="#flex-grow-shrink" class="nav-card">
+              <div class="nav-icon">📈</div>
+              <h3>Flex Grow, Shrink, Basis</h3>
+              <p>Flex-grow, flex-shrink, flex-basis</p>
+            </a>
+
+            <!-- CSS Grid -->
+            <a href="#grid-intro" class="nav-card">
+              <div class="nav-icon">⚏</div>
+              <h3>CSS Grid - Introduction</h3>
+              <p>Grid container, grid items</p>
+            </a>
+            <a href="#grid-template" class="nav-card">
+              <div class="nav-icon">📐</div>
+              <h3>Grid Template Columns and Rows</h3>
+              <p>Grid-template-columns, grid-template-rows</p>
+            </a>
+            <a href="#grid-gap" class="nav-card">
+              <div class="nav-icon">🔲</div>
+              <h3>Grid Gap</h3>
+              <p>Grid-gap, row-gap, column-gap</p>
+            </a>
+            <a href="#grid-area" class="nav-card">
+              <div class="nav-icon">📍</div>
+              <h3>Grid Area</h3>
+              <p>Grid-area, grid-row-start, grid-column-end</p>
+            </a>
+            <a href="#grid-auto-flow" class="nav-card">
+              <div class="nav-icon">🌊</div>
+              <h3>Grid Auto Flow</h3>
+              <p>Row, column, dense</p>
+            </a>
+
+            <!-- Advanced CSS -->
+            <a href="#media-queries" class="nav-card">
+              <div class="nav-icon">📱</div>
+              <h3>CSS Media Queries</h3>
+              <p>@media, responsive design, breakpoints</p>
+            </a>
+            <a href="#variables" class="nav-card">
+              <div class="nav-icon">🔧</div>
+              <h3>CSS Variables</h3>
+              <p>--variable, var()</p>
+            </a>
+            <a href="#calc" class="nav-card">
+              <div class="nav-icon">🧮</div>
+              <h3>CSS Calc() Function</h3>
+              <p>Calc(), expressions, dynamic values</p>
+            </a>
+            <a href="#specificity" class="nav-card">
+              <div class="nav-icon">⚖️</div>
+              <h3>CSS Specificity</h3>
+              <p>Inline styles, IDs, classes, elements</p>
+            </a>
+            <a href="#inheritance" class="nav-card">
+              <div class="nav-icon">🧬</div>
+              <h3>CSS Inheritance</h3>
+              <p>Inheritable properties, cascade</p>
+            </a>
+            <a href="#important" class="nav-card">
+              <div class="nav-icon">⚠️</div>
+              <h3>CSS !important</h3>
+              <p>Override rules, priority</p>
+            </a>
+
+            <!-- Modern CSS Features -->
+            <a href="#filters" class="nav-card">
+              <div class="nav-icon">🎨</div>
+              <h3>CSS Filters</h3>
+              <p>Blur, brightness, contrast, grayscale</p>
+            </a>
+            <a href="#backdrop-filter" class="nav-card">
+              <div class="nav-icon">🖼️</div>
+              <h3>CSS Backdrop Filter</h3>
+              <p>Backdrop-filter</p>
+            </a>
+            <a href="#clip-path" class="nav-card">
+              <div class="nav-icon">✂️</div>
+              <h3>CSS Clip Path</h3>
+              <p>Clip-path, shape, polygon</p>
+            </a>
+            <a href="#mix-blend-mode" class="nav-card">
+              <div class="nav-icon">🎭</div>
+              <h3>CSS Mix Blend Mode</h3>
+              <p>Mix-blend-mode</p>
+            </a>
+            <a href="#columns" class="nav-card">
+              <div class="nav-icon">📰</div>
+              <h3>CSS Columns</h3>
+              <p>Column-count, column-gap</p>
+            </a>
+            <a href="#writing-modes" class="nav-card">
+              <div class="nav-icon">📝</div>
+              <h3>CSS Writing Modes</h3>
+              <p>Horizontal-tb, vertical-rl, vertical-lr</p>
+            </a>
+            <a href="#writing-direction" class="nav-card">
+              <div class="nav-icon">➡️</div>
+              <h3>CSS Writing Direction</h3>
+              <p>Direction, ltr, rtl</p>
+            </a>
+            <a href="#text-overflow" class="nav-card">
+              <div class="nav-icon">📄</div>
+              <h3>CSS Text Overflow</h3>
+              <p>Text-overflow, ellipsis, clip</p>
+            </a>
+            <a href="#hyphens" class="nav-card">
+              <div class="nav-icon">🔗</div>
+              <h3>CSS Hyphens</h3>
+              <p>Hyphens, auto, manual</p>
+            </a>
+            <a href="#overflow-wrap" class="nav-card">
+              <div class="nav-icon">📝</div>
+              <h3>CSS Overflow Wrap</h3>
+              <p>Word-wrap, overflow-wrap, break-word</p>
+            </a>
+
+            <!-- Object and Content -->
+            <a href="#object-fit" class="nav-card">
+              <div class="nav-icon">🖼️</div>
+              <h3>CSS Object Fit</h3>
+              <p>Contain, cover, fill, none</p>
+            </a>
+            <a href="#object-position" class="nav-card">
+              <div class="nav-icon">📍</div>
+              <h3>CSS Object Position</h3>
+              <p>Object-position</p>
+            </a>
+            <a href="#content" class="nav-card">
+              <div class="nav-icon">📄</div>
+              <h3>CSS Content Property</h3>
+              <p>Content, generated content</p>
+            </a>
+            <a href="#counters" class="nav-card">
+              <div class="nav-icon">🔢</div>
+              <h3>CSS Counters</h3>
+              <p>List counters, numbering</p>
+            </a>
+            <a href="#counter-styles" class="nav-card">
+              <div class="nav-icon">🎨</div>
+              <h3>CSS Counter Styles</h3>
+              <p>@counter-style</p>
+            </a>
+            <a href="#lists-counters" class="nav-card">
+              <div class="nav-icon">📋</div>
+              <h3>CSS Lists - Counters</h3>
+              <p>Counter-reset, counter-increment</p>
+            </a>
+
+            <!-- Interactive Elements -->
+            <a href="#user-select" class="nav-card">
+              <div class="nav-icon">👆</div>
+              <h3>CSS User Select</h3>
+              <p>User-select, text selection</p>
+            </a>
+            <a href="#resize" class="nav-card">
+              <div class="nav-icon">📏</div>
+              <h3>CSS Resize</h3>
+              <p>Resize, textarea resizing</p>
+            </a>
+            <a href="#pointer-events" class="nav-card">
+              <div class="nav-icon">👆</div>
+              <h3>CSS Pointer Events</h3>
+              <p>Pointer-events, none, auto</p>
+            </a>
+            <a href="#tab-size" class="nav-card">
+              <div class="nav-icon">📏</div>
+              <h3>CSS Tab Size</h3>
+              <p>Tab-size</p>
+            </a>
+
+            <!-- Scroll and Performance -->
+            <a href="#scroll-behavior" class="nav-card">
+              <div class="nav-icon">📜</div>
+              <h3>CSS Scroll Behavior</h3>
+              <p>Scroll-behavior, smooth scrolling</p>
+            </a>
+            <a href="#scroll-snap" class="nav-card">
+              <div class="nav-icon">🎯</div>
+              <h3>CSS Scroll Snap</h3>
+              <p>Scroll-snap-type, scroll-snap-align</p>
+            </a>
+            <a href="#scroll-snap-points" class="nav-card">
+              <div class="nav-icon">🎯</div>
+              <h3>CSS Scroll Snap Points</h3>
+              <p>Scroll-snap-points-x, scroll-snap-points-y</p>
+            </a>
+            <a href="#scrollbar-styling" class="nav-card">
+              <div class="nav-icon">📜</div>
+              <h3>CSS Scrollbar Styling</h3>
+              <p>Scrollbar-color, scrollbar-width</p>
+            </a>
+            <a href="#scrollbar-track" class="nav-card">
+              <div class="nav-icon">📜</div>
+              <h3>CSS Scrollbar Track</h3>
+              <p>Scrollbar-track-color</p>
+            </a>
+            <a href="#overflow-anchor" class="nav-card">
+              <div class="nav-icon">⚓</div>
+              <h3>CSS Overflow Anchor</h3>
+              <p>Overflow-anchor</p>
+            </a>
+
+            <!-- Performance and Advanced -->
+            <a href="#will-change" class="nav-card">
+              <div class="nav-icon">⚡</div>
+              <h3>CSS Will Change</h3>
+              <p>Will-change, performance</p>
+            </a>
+            <a href="#will-change-performance" class="nav-card">
+              <div class="nav-icon">⚡</div>
+              <h3>Will Change Performance Hint</h3>
+              <p>Will-change</p>
+            </a>
+            <a href="#isolation" class="nav-card">
+              <div class="nav-icon">🔒</div>
+              <h3>CSS Isolation</h3>
+              <p>Isolation property</p>
+            </a>
+            <a href="#aspect-ratio" class="nav-card">
+              <div class="nav-icon">📐</div>
+              <h3>CSS Aspect Ratio</h3>
+              <p>Aspect-ratio</p>
+            </a>
+            <a href="#environment-variables" class="nav-card">
+              <div class="nav-icon">🌍</div>
+              <h3>CSS Environment Variables</h3>
+              <p>Env(), safe-area-inset</p>
+            </a>
+            <a href="#clamp" class="nav-card">
+              <div class="nav-icon">📏</div>
+              <h3>CSS Clamp() Function</h3>
+              <p>Clamp(), responsive sizing</p>
+            </a>
+            <a href="#supports" class="nav-card">
+              <div class="nav-icon">🔍</div>
+              <h3>CSS Supports Rule</h3>
+              <p>@supports, feature queries</p>
+            </a>
+            <a href="#logical-properties" class="nav-card">
+              <div class="nav-icon">🧠</div>
+              <h3>CSS Logical Properties</h3>
+              <p>Margin-inline, padding-block</p>
+            </a>
+            <a href="#shape-outside" class="nav-card">
+              <div class="nav-icon">🔷</div>
+              <h3>CSS Shape Outside</h3>
+              <p>Shape-outside</p>
+            </a>
+            <a
+              href="#filter-effects"
+              class="nav-card"
+              style="opacity: 1; transform: translateY(0px)"
+            >
+              <div class="nav-icon">🎨</div>
+              <h3>CSS Filter Effects</h3>
+              <p>Drop-shadow, invert, sepia</p>
+            </a>
+            <a
+              href="#box-decoration-break"
+              class="nav-card"
+              style="opacity: 1; transform: translateY(0px)"
+            >
+              <div class="nav-icon">📦</div>
+              <h3>CSS Box Decoration Break</h3>
+              <p>Clone, slice</p>
+            </a>
+            <a
+              href="#table-styling"
+              class="nav-card"
+              style="opacity: 1; transform: translateY(0px)"
+            >
+              <div class="nav-icon">📊</div>
+              <h3>CSS Table Styling</h3>
+              <p>Border-collapse, table-layout</p>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <main class="content-section">
+        <!-- Introduction to CSS -->
+        <section
+          id="intro"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Introduction to CSS</h2>
+          <p>
+            CSS (Cascading Style Sheets) is a stylesheet language used to
+            describe the presentation of HTML documents. It controls layout,
+            colors, fonts, and overall visual appearance.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;h1 class="title"&gt;Welcome to CSS&lt;/h1&gt;
+&lt;p class="description"&gt;This is a sample paragraph&lt;/p&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.title {
+    color: var(--color-highlight);
+    font-size: 2.5rem;
+    text-shadow: 0 2px 10px rgba(255, 204, 0, 0.3);
+}
+
+.description {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <h1 class="demo-title">Welcome to CSS</h1>
+              <p class="demo-description">This is a sample paragraph</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grouping and Combining Selectors -->
+        <section
+          id="grouping"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Grouping and Combining Selectors</h2>
+          <p>
+            CSS allows you to group multiple selectors together and combine them
+            to create more specific targeting rules.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="container"&gt;
+    &lt;h2&gt;Main Title&lt;/h2&gt;
+    &lt;p&gt;Paragraph text&lt;/p&gt;
+    &lt;span&gt;Inline text&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>/* Grouping selectors */
+h1, h2, h3 {
+    color: var(--color-highlight);
+    font-weight: bold;
+}
+
+/* Descendant selector */
+.container p {
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+/* Child selector */
+.container &gt; span {
+    color: var(--color-accent);
+    font-weight: bold;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grouping-demo">
+                <h2 class="grouping-title">Main Title</h2>
+                <p class="grouping-paragraph">Paragraph text</p>
+                <span class="grouping-span">Inline text</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Display Property -->
+        <section
+          id="display"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Display Property</h2>
+          <p>
+            The display property controls how an element is rendered in the
+            document flow.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="display-demo"&gt;
+    &lt;span class="block"&gt;Block Element&lt;/span&gt;
+    &lt;div class="inline"&gt;Inline Element&lt;/div&gt;
+    &lt;span class="inline-block"&gt;Inline-Block&lt;/span&gt;
+    &lt;div class="hidden"&gt;Hidden Element&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.block {
+    display: block;
+    background: var(--color-accent);
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.inline {
+    display: inline;
+    background: var(--color-highlight);
+    color: var(--color-primary);
+    padding: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+    background: var(--color-secondary);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+}
+
+.hidden {
+    display: none;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="display-demo-container">
+                <span class="display-block-demo">Block Element</span>
+                <div class="display-inline-demo">Inline Element</div>
+                <span class="display-inline-block-demo">Inline-Block</span>
+                <div class="display-hidden-demo">Hidden Element</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Float and Clear -->
+        <section
+          id="float"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Float and Clear</h2>
+          <p>
+            Float allows elements to be positioned to the left or right of their
+            container, while clear prevents elements from floating around
+            others.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="float-container"&gt;
+    &lt;div class="float-left"&gt;Float Left&lt;/div&gt;
+    &lt;div class="float-right"&gt;Float Right&lt;/div&gt;
+    &lt;div class="clear-both"&gt;Clear Both&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.float-left {
+    float: left;
+    background: var(--color-accent);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+}
+
+.float-right {
+    float: right;
+    background: var(--color-highlight);
+    color: var(--color-primary);
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+}
+
+.clear-both {
+    clear: both;
+    background: var(--color-secondary);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="float-demo-container">
+                <div class="float-left-demo">Float Left</div>
+                <div class="float-right-demo">Float Right</div>
+                <div class="clear-both-demo">Clear Both</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Syntax -->
+        <section
+          id="syntax"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Syntax and Rules</h2>
+          <p>
+            CSS rules consist of a selector and a declaration block. Each
+            declaration includes a property and value, separated by a colon.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="syntax-box"&gt;CSS Syntax Example&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.syntax-box {
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(71, 19, 150, 0.3);
+    text-align: center;
+    font-weight: bold;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="syntax-demo">CSS Syntax Example</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Selectors -->
+        <section
+          id="selectors"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Selectors</h2>
+          <p>
+            Selectors are used to target HTML elements. Common types include
+            element selectors, class selectors, and ID selectors.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;h3&gt;Element Selector&lt;/h3&gt;
+&lt;p class="highlight"&gt;Class Selector&lt;/p&gt;
+&lt;div id="unique"&gt;ID Selector&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>h3 {
+    color: var(--color-highlight);
+    margin-bottom: 10px;
+}
+
+.highlight {
+    background: var(--color-accent);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#unique {
+    border: 2px solid var(--color-highlight);
+    padding: 15px;
+    border-radius: 12px;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <h3 class="demo-element">Element Selector</h3>
+              <p class="demo-class">Class Selector</p>
+              <div class="demo-id">ID Selector</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Colors -->
+        <section
+          id="colors"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Colors</h2>
+          <p>
+            CSS supports various color formats including color names, HEX, RGB,
+            and HSL values.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="color-hex"&gt;HEX Color&lt;/div&gt;
+&lt;div class="color-rgb"&gt;RGB Color&lt;/div&gt;
+&lt;div class="color-hsl"&gt;HSL Color&lt;/div&gt;
+&lt;div class="color-gradient"&gt;Gradient&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.color-hex {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.color-rgb {
+    background-color: rgb(74, 144, 226);
+    color: white;
+}
+
+.color-hsl {
+    background-color: hsl(142, 71%, 58%);
+    color: white;
+}
+
+.color-gradient {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    color: white;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="color-demo-grid">
+                <div class="color-hex-demo">HEX Color</div>
+                <div class="color-rgb-demo">RGB Color</div>
+                <div class="color-hsl-demo">HSL Color</div>
+                <div class="color-gradient-demo">Gradient</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Text Properties -->
+        <section
+          id="text"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Text Properties</h2>
+          <p>
+            Control typography with font-family, font-size, font-weight, and
+            text-align properties.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;p class="text-large"&gt;Large Bold Text&lt;/p&gt;
+&lt;p class="text-italic"&gt;Italic Text&lt;/p&gt;
+&lt;p class="text-center"&gt;Centered Text&lt;/p&gt;
+&lt;p class="text-decorated"&gt;Decorated Text&lt;/p&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.text-large {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-highlight);
+}
+
+.text-italic {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.text-decorated {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <p class="text-large-demo">Large Bold Text</p>
+              <p class="text-italic-demo">Italic Text</p>
+              <p class="text-center-demo">Centered Text</p>
+              <p class="text-decorated-demo">Decorated Text</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Box Model -->
+        <section
+          id="box-model"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Box Model</h2>
+          <p>
+            Every element has margin, border, padding, and content areas that
+            make up the CSS box model.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="box-model-demo"&gt;
+    &lt;div class="inner-content"&gt;Content Area&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.box-model-demo {
+    margin: 20px;
+    border: 4px solid var(--color-accent);
+    padding: 25px;
+    background-color: rgba(177, 59, 255, 0.1);
+    border-radius: 12px;
+}
+
+.inner-content {
+    background: var(--color-secondary);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="box-model-example">
+                <div class="inner-content-demo">Content Area</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Positioning -->
+        <section
+          id="positioning"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Positioning Elements</h2>
+          <p>
+            Position elements using static, relative, absolute, fixed, and
+            sticky positioning.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="position-container"&gt;
+    &lt;div class="position-relative"&gt;Relative&lt;/div&gt;
+    &lt;div class="position-absolute"&gt;Absolute&lt;/div&gt;
+    &lt;div class="position-fixed"&gt;Fixed&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.position-container {
+    position: relative;
+    height: 200px;
+    background: rgba(71, 19, 150, 0.1);
+    border-radius: 12px;
+}
+
+.position-relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background: var(--color-accent);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: var(--color-highlight);
+    color: var(--color-primary);
+    padding: 10px;
+    border-radius: 8px;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="position-demo-container">
+                <div class="position-relative-demo">Relative</div>
+                <div class="position-absolute-demo">Absolute</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Animations -->
+        <section
+          id="animations"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Animations</h2>
+          <p>
+            Create smooth animations using @keyframes, animation-name, and
+            animation-duration.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="anim-box"&gt;Animated Box&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>@keyframes move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100px); }
+}
+.anim-box {
+  animation: move 2s infinite alternate;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="anim-box">Animated Box</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Timing Functions -->
+        <section
+          id="timing-functions"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Timing Functions</h2>
+          <p>
+            Control the speed curve of animations and transitions using timing
+            functions like ease, linear, ease-in, ease-out, and ease-in-out.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="timing-ease"&gt;Ease&lt;/div&gt;
+&lt;div class="timing-linear"&gt;Linear&lt;/div&gt;
+&lt;div class="timing-ease-in"&gt;Ease In&lt;/div&gt;
+&lt;div class="timing-ease-out"&gt;Ease Out&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.timing-ease {
+    transition: all 2s ease;
+    background: var(--color-accent);
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.timing-linear {
+    transition: all 2s linear;
+    background: var(--color-secondary);
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.timing-ease-in {
+    transition: all 2s ease-in;
+    background: var(--color-highlight);
+    color: var(--color-primary);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.timing-ease-out {
+    transition: all 2s ease-out;
+    background: var(--color-accent);
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="timing-ease">Ease</div>
+              <div class="timing-linear">Linear</div>
+              <div class="timing-ease-in">Ease In</div>
+              <div class="timing-ease-out">Ease Out</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Transition Delays -->
+        <section
+          id="transition-delays"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Transition Delays</h2>
+          <p>
+            The transition-delay property specifies when the transition effect
+            will start.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="delay-0"&gt;No Delay&lt;/div&gt;
+&lt;div class="delay-1"&gt;1s Delay&lt;/div&gt;
+&lt;div class="delay-2"&gt;2s Delay&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.delay-0, .delay-1, .delay-2 {
+    transition: all 1s ease;
+    background: var(--color-accent);
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delay-0 { transition-delay: 0s; }
+.delay-1 { transition-delay: 1s; }
+.delay-2 { transition-delay: 2s; }
+
+.delay-0:hover, .delay-1:hover, .delay-2:hover {
+    background: var(--color-highlight);
+    transform: scale(1.1);
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="delay-0">No Delay</div>
+              <div class="delay-1">1s Delay</div>
+              <div class="delay-2">2s Delay</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Flexbox Introduction -->
+        <section
+          id="flexbox-intro"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Flexbox - Introduction</h2>
+          <p>
+            Flexbox is a layout model that makes it easy to design flexible and
+            efficient layouts.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="flexbox-demo"&gt;
+  &lt;div&gt;A&lt;/div&gt;
+  &lt;div&gt;B&lt;/div&gt;
+  &lt;div&gt;C&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.flexbox-demo {
+  display: flex;
+  gap: 10px;
+}
+.flexbox-demo &gt; div {
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="flexbox-demo">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Flex Direction -->
+        <section
+          id="flex-direction"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Flex Direction</h2>
+          <p>
+            The flex-direction property sets the direction of the flex items in
+            a flex container.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="flex-dir-row"&gt;
+  &lt;div&gt;Row 1&lt;/div&gt;
+  &lt;div&gt;Row 2&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex-dir-col"&gt;
+  &lt;div&gt;Col 1&lt;/div&gt;
+  &lt;div&gt;Col 2&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.flex-dir-row { display: flex; flex-direction: row; gap: 8px; }
+.flex-dir-col { display: flex; flex-direction: column; gap: 8px; }
+.flex-dir-row &gt; div, .flex-dir-col &gt; div { background: var(--color-accent); color: #fff; padding: 10px; border-radius: 6px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="flex-dir-row">
+                <div>Row 1</div>
+                <div>Row 2</div>
+              </div>
+              <div class="flex-dir-col">
+                <div>Col 1</div>
+                <div>Col 2</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Justify Content -->
+        <section
+          id="justify-content"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Justify Content</h2>
+          <p>
+            The justify-content property aligns flex items along the main axis.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="justify-center"&gt;
+  &lt;div&gt;1&lt;/div&gt;
+  &lt;div&gt;2&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.justify-center { display: flex; justify-content: center; gap: 8px; }
+.justify-center &gt; div { background: var(--color-highlight); color: var(--color-primary); padding: 10px; border-radius: 6px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="justify-center">
+                <div>1</div>
+                <div>2</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Align Items -->
+        <section
+          id="align-items"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Align Items</h2>
+          <p>
+            The align-items property aligns flex items along the cross axis.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="align-center" style="height: 80px"&gt;
+  &lt;div&gt;Center&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.align-center { display: flex; align-items: center; height: 80px; }
+.align-center &gt; div { background: var(--color-secondary); color: #fff; padding: 10px; border-radius: 6px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="align-center" style="height: 80px">
+                <div>Center</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Flex Wrap -->
+        <section
+          id="flex-wrap"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Flex Wrap</h2>
+          <p>
+            The flex-wrap property controls whether flex items wrap onto
+            multiple lines.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="flex-wrap-demo"&gt;
+  &lt;div&gt;A&lt;/div&gt;
+  &lt;div&gt;B&lt;/div&gt;
+  &lt;div&gt;C&lt;/div&gt;
+  &lt;div&gt;D&lt;/div&gt;
+  &lt;div&gt;E&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.flex-wrap-demo { display: flex; flex-wrap: wrap; gap: 8px; max-width: 200px; }
+.flex-wrap-demo &gt; div { background: var(--color-accent); color: #fff; padding: 10px; border-radius: 6px; min-width: 60px; text-align: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="flex-wrap-demo">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div>D</div>
+                <div>E</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Align Content -->
+        <section
+          id="align-content"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Align Content</h2>
+          <p>
+            The align-content property aligns flex lines within a flex container
+            when there is extra space.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="align-content-demo"&gt;
+  &lt;div&gt;1&lt;/div&gt;
+  &lt;div&gt;2&lt;/div&gt;
+  &lt;div&gt;3&lt;/div&gt;
+  &lt;div&gt;4&lt;/div&gt;
+  &lt;div&gt;5&lt;/div&gt;
+  &lt;div&gt;6&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.align-content-demo { display: flex; flex-wrap: wrap; align-content: space-between; height: 120px; gap: 8px; }
+.align-content-demo &gt; div { background: var(--color-highlight); color: var(--color-primary); padding: 10px; border-radius: 6px; min-width: 50px; text-align: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="align-content-demo">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Flex Grow, Shrink, Basis -->
+        <section
+          id="flex-grow-shrink"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Flex Grow, Shrink, Basis</h2>
+          <p>
+            Control how flex items grow, shrink, and their initial size using
+            flex-grow, flex-shrink, and flex-basis.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="flex-grow-demo"&gt;
+  &lt;div class="grow1"&gt;Grow 1&lt;/div&gt;
+  &lt;div class="grow2"&gt;Grow 2&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.flex-grow-demo { display: flex; gap: 8px; }
+.grow1 { flex-grow: 1; background: var(--color-accent); color: #fff; padding: 10px; border-radius: 6px; }
+.grow2 { flex-grow: 2; background: var(--color-secondary); color: #fff; padding: 10px; border-radius: 6px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="flex-grow-demo">
+                <div class="grow1">Grow 1</div>
+                <div class="grow2">Grow 2</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Grid Introduction -->
+        <section
+          id="grid-intro"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Grid - Introduction</h2>
+          <p>CSS Grid is a two-dimensional layout system for the web.</p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="grid-demo"&gt;
+  &lt;div&gt;A&lt;/div&gt;
+  &lt;div&gt;B&lt;/div&gt;
+  &lt;div&gt;C&lt;/div&gt;
+  &lt;div&gt;D&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.grid-demo { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.grid-demo &gt; div { background: var(--color-accent); color: #fff; padding: 15px; border-radius: 8px; text-align: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grid-demo">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div>D</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grid Template Columns and Rows -->
+        <section
+          id="grid-template"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Grid Template Columns and Rows</h2>
+          <p>
+            Define the number and size of columns and rows using
+            grid-template-columns and grid-template-rows.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="grid-template-demo"&gt;
+  &lt;div&gt;1&lt;/div&gt;
+  &lt;div&gt;2&lt;/div&gt;
+  &lt;div&gt;3&lt;/div&gt;
+  &lt;div&gt;4&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.grid-template-demo { display: grid; grid-template-columns: 100px 1fr; grid-template-rows: 50px 50px; gap: 8px; }
+.grid-template-demo &gt; div { background: var(--color-secondary); color: #fff; padding: 10px; border-radius: 6px; text-align: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grid-template-demo">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grid Gap -->
+        <section
+          id="grid-gap"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Grid Gap</h2>
+          <p>
+            Control the spacing between grid items using grid-gap, row-gap, and
+            column-gap.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="grid-gap-demo"&gt;
+  &lt;div&gt;A&lt;/div&gt;
+  &lt;div&gt;B&lt;/div&gt;
+  &lt;div&gt;C&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.grid-gap-demo { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 20px; }
+.grid-gap-demo &gt; div { background: var(--color-highlight); color: var(--color-primary); padding: 10px; border-radius: 6px; text-align: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grid-gap-demo">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grid Area -->
+        <section
+          id="grid-area"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Grid Area</h2>
+          <p>
+            Use grid-area, grid-row-start, and grid-column-end to control the
+            placement and span of grid items.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="grid-area-demo"&gt;
+  &lt;div class="area1"&gt;Area 1&lt;/div&gt;
+  &lt;div class="area2"&gt;Area 2&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.grid-area-demo { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 50px 50px; gap: 8px; }
+.area1 { grid-row: 1 / 3; grid-column: 1 / 2; background: var(--color-accent); color: #fff; display: flex; align-items: center; justify-content: center; border-radius: 6px; }
+.area2 { grid-row: 1 / 2; grid-column: 2 / 3; background: var(--color-secondary); color: #fff; display: flex; align-items: center; justify-content: center; border-radius: 6px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grid-area-demo">
+                <div class="area1">Area 1</div>
+                <div class="area2">Area 2</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grid Auto Flow -->
+        <section
+          id="grid-auto-flow"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Grid Auto Flow</h2>
+          <p>
+            The grid-auto-flow property controls how auto-placed items are
+            inserted in the grid (row, column, dense).
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="grid-auto-flow-demo"&gt;
+  &lt;div&gt;1&lt;/div&gt;
+  &lt;div&gt;2&lt;/div&gt;
+  &lt;div&gt;3&lt;/div&gt;
+  &lt;div&gt;4&lt;/div&gt;
+  &lt;div&gt;5&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.grid-auto-flow-demo { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-flow: column; gap: 8px; }
+.grid-auto-flow-demo &gt; div { background: var(--color-highlight); color: var(--color-primary); padding: 10px; border-radius: 6px; text-align: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grid-auto-flow-demo">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Grid -->
+        <section
+          id="grid"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Grid</h2>
+          <p>
+            CSS Grid provides a two-dimensional grid-based layout system for
+            creating complex layouts.
+          </p>
+
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="grid-container"&gt;
+    &lt;div class="grid-item"&gt;1&lt;/div&gt;
+    &lt;div class="grid-item"&gt;2&lt;/div&gt;
+    &lt;div class="grid-item"&gt;3&lt;/div&gt;
+    &lt;div class="grid-item"&gt;4&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    background: rgba(71, 19, 150, 0.1);
+    border-radius: 12px;
+}
+
+.grid-item {
+    background: var(--color-secondary);
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}</code></pre>
+            </div>
+
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="grid-demo-container">
+                <div class="grid-item-demo">1</div>
+                <div class="grid-item-demo">2</div>
+                <div class="grid-item-demo">3</div>
+                <div class="grid-item-demo">4</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+        <section
+          id="units"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Units</h2>
+          <p>
+            CSS supports various units for sizing, such as px, em, rem, %, vh,
+            and vw. Each unit has its own use case for responsive and scalable
+            design.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="unit-px"&gt;100px&lt;/div&gt;
+&lt;div class="unit-em"&gt;2em&lt;/div&gt;
+&lt;div class="unit-rem"&gt;2rem&lt;/div&gt;
+&lt;div class="unit-percent"&gt;50% width&lt;/div&gt;
+&lt;div class="unit-vh"&gt;20vh height&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.unit-px { width: 100px; background: var(--color-accent); color: #fff; margin-bottom: 8px; }
+.unit-em { font-size: 2em; background: var(--color-secondary); color: #fff; margin-bottom: 8px; }
+.unit-rem { font-size: 2rem; background: var(--color-highlight); color: var(--color-primary); margin-bottom: 8px; }
+.unit-percent { width: 50%; background: var(--color-card-bg); color: var(--color-text); margin-bottom: 8px; }
+.unit-vh { height: 20vh; background: var(--color-accent); color: #fff; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="unit-px">100px</div>
+              <div class="unit-em">2em</div>
+              <div class="unit-rem">2rem</div>
+              <div class="unit-percent">50% width</div>
+              <div class="unit-vh">20vh height</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Backgrounds -->
+        <section
+          id="backgrounds"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Backgrounds</h2>
+          <p>
+            Control the background of elements using background-color,
+            background-image, and background-position.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="bg-color"&gt;Solid Color&lt;/div&gt;
+&lt;div class="bg-image"&gt;Image Background&lt;/div&gt;
+&lt;div class="bg-position"&gt;Positioned Background&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.bg-color { background-color: var(--color-accent); color: #fff; padding: 20px; margin-bottom: 8px; }
+.bg-image { background-image: url('https://css-tricks.com/examples/OneDiv/images/bg-clouds.png'); color: #fff; padding: 20px; margin-bottom: 8px; }
+.bg-position { background: url('https://css-tricks.com/examples/OneDiv/images/bg-clouds.png') no-repeat right bottom; color: #fff; padding: 20px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="bg-color">Solid Color</div>
+              <div class="bg-image">Image Background</div>
+              <div class="bg-position">Positioned Background</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Borders -->
+        <section
+          id="borders"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Borders</h2>
+          <p>
+            Borders can be styled with border-style, border-width, border-color,
+            and border-radius for rounded corners.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="border-solid"&gt;Solid Border&lt;/div&gt;
+&lt;div class="border-dashed"&gt;Dashed Border&lt;/div&gt;
+&lt;div class="border-radius"&gt;Rounded Border&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.border-solid { border: 3px solid var(--color-accent); padding: 15px; margin-bottom: 8px; }
+.border-dashed { border: 3px dashed var(--color-highlight); padding: 15px; margin-bottom: 8px; }
+.border-radius { border: 3px solid var(--color-secondary); border-radius: 16px; padding: 15px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="border-solid">Solid Border</div>
+              <div class="border-dashed">Dashed Border</div>
+              <div class="border-radius">Rounded Border</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Lists Styling -->
+        <section
+          id="lists"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Lists Styling</h2>
+          <p>
+            Style lists using list-style-type and list-style-position for custom
+            bullets and numbering.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;ul class="list-disc"&gt;
+  &lt;li&gt;Disc&lt;/li&gt;
+  &lt;li&gt;Circle&lt;/li&gt;
+  &lt;li&gt;Square&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol class="list-decimal"&gt;
+  &lt;li&gt;One&lt;/li&gt;
+  &lt;li&gt;Two&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.list-disc { list-style-type: disc; margin-left: 20px; }
+.list-decimal { list-style-type: decimal; margin-left: 20px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <ul class="list-disc">
+                <li>Disc</li>
+                <li>Circle</li>
+                <li>Square</li>
+              </ul>
+              <ol class="list-decimal">
+                <li>One</li>
+                <li>Two</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pseudo-classes -->
+        <section
+          id="pseudo-classes"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Pseudo-classes</h2>
+          <p>
+            Pseudo-classes like :hover, :focus, :nth-child, and :first-child
+            allow you to style elements based on their state or position.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;button class="hover-btn"&gt;Hover Me&lt;/button&gt;
+&lt;input class="focus-input" placeholder="Focus me"&gt;
+&lt;ul class="nth-list"&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.hover-btn:hover { background: var(--color-accent); color: #fff; }
+.focus-input:focus { border: 2px solid var(--color-highlight); }
+.nth-list li:nth-child(2) { color: var(--color-accent); font-weight: bold; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <button class="hover-btn">Hover Me</button>
+              <input class="focus-input" placeholder="Focus me" />
+              <ul class="nth-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pseudo-elements -->
+        <section
+          id="pseudo-elements"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Pseudo-elements</h2>
+          <p>
+            Pseudo-elements like ::before and ::after let you insert content
+            before or after an element's content.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;p class="before-after"&gt;Text with pseudo-elements&lt;/p&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.before-after::before { content: "★ "; color: var(--color-accent); }
+.before-after::after { content: " ✦"; color: var(--color-highlight); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <p class="before-after">Text with pseudo-elements</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Links Styling -->
+        <section
+          id="links"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Links Styling</h2>
+          <p>
+            Style links using a:hover, a:visited, and a:active for interactive
+            effects.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;a href="#" class="styled-link"&gt;Visit Link&lt;/a&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.styled-link { color: var(--color-accent); text-decoration: none; }
+.styled-link:hover { color: var(--color-highlight); text-decoration: underline; }
+.styled-link:visited { color: var(--color-secondary); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <a href="#" class="styled-link">Visit Link</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Fonts and Text Decoration -->
+        <section
+          id="fonts"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Fonts and Text Decoration</h2>
+          <p>
+            Control font style, variant, and text decoration for beautiful
+            typography.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;p class="italic-text"&gt;Italic Text&lt;/p&gt;
+&lt;p class="small-caps"&gt;Small Caps&lt;/p&gt;
+&lt;p class="underline"&gt;Underlined Text&lt;/p&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.italic-text { font-style: italic; }
+.small-caps { font-variant: small-caps; }
+.underline { text-decoration: underline; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <p class="italic-text">Italic Text</p>
+              <p class="small-caps">Small Caps</p>
+              <p class="underline">Underlined Text</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Google Fonts Integration -->
+        <section
+          id="google-fonts"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>Google Fonts Integration</h2>
+          <p>
+            Integrate Google Fonts into your CSS using @import, font-face, and
+            external font links.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"&gt;
+&lt;h1 class="google-font"&gt;Google Font Example&lt;/h1&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.google-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color-highlight);
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <h1 class="google-font-demo">Google Font Example</h1>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Box Sizing -->
+        <section
+          id="box-sizing"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Box Sizing</h2>
+          <p>
+            The box-sizing property controls how the total width and height of
+            an element is calculated.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="content-box"&gt;Content Box&lt;/div&gt;
+&lt;div class="border-box"&gt;Border Box&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.content-box {
+    box-sizing: content-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid var(--color-accent);
+    background: var(--color-secondary);
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid var(--color-highlight);
+    background: var(--color-accent);
+    color: #fff;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="content-box-demo">Content Box</div>
+              <div class="border-box-demo">Border Box</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Overflow -->
+        <section
+          id="overflow"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Overflow</h2>
+          <p>
+            Control how content is clipped or scrolled using overflow,
+            overflow-x, and overflow-y.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="overflow-box"&gt;This is a long text that will overflow the box and show a scrollbar.&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.overflow-box { width: 200px; height: 40px; overflow: auto; background: var(--color-card-bg); color: var(--color-text); padding: 10px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="overflow-box">
+                This is a long text that will overflow the box and show a
+                scrollbar.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Visibility -->
+        <section
+          id="visibility"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Visibility</h2>
+          <p>
+            Use the visibility property to show or hide elements without
+            removing them from the layout.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;span class="visible-demo"&gt;Visible&lt;/span&gt;
+&lt;span class="hidden-demo"&gt;Hidden&lt;/span&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.visible-demo { visibility: visible; color: var(--color-accent); }
+.hidden-demo { visibility: hidden; color: var(--color-secondary); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <span class="visible-demo">Visible</span>
+              <span class="hidden-demo">Hidden</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Opacity -->
+        <section
+          id="opacity"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Opacity</h2>
+          <p>The opacity property controls the transparency of an element.</p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="opacity-full"&gt;Opacity 1&lt;/div&gt;
+&lt;div class="opacity-half"&gt;Opacity 0.5&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.opacity-full { opacity: 1; background: var(--color-accent); color: #fff; padding: 10px; margin-bottom: 8px; }
+.opacity-half { opacity: 0.5; background: var(--color-accent); color: #fff; padding: 10px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="opacity-full">Opacity 1</div>
+              <div class="opacity-half">Opacity 0.5</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Cursor -->
+        <section
+          id="cursor"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Cursor</h2>
+          <p>
+            Change the mouse cursor using the cursor property (pointer, default,
+            crosshair, etc.).
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;button class="cursor-pointer"&gt;Pointer&lt;/button&gt;
+&lt;button class="cursor-crosshair"&gt;Crosshair&lt;/button&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.cursor-pointer { cursor: pointer; }
+.cursor-crosshair { cursor: crosshair; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <button class="cursor-pointer">Pointer</button>
+              <button class="cursor-crosshair">Crosshair</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Z-index -->
+        <section
+          id="z-index"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Z-index</h2>
+          <p>
+            The z-index property controls the stacking order of positioned
+            elements.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="z-container"&gt;
+  &lt;div class="z-box z1"&gt;z-index: 1&lt;/div&gt;
+  &lt;div class="z-box z2"&gt;z-index: 2&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.z-container { position: relative; height: 60px; }
+.z-box { position: absolute; top: 10px; left: 10px; width: 120px; height: 40px; color: #fff; display: flex; align-items: center; justify-content: center; }
+.z1 { background: var(--color-accent); z-index: 1; left: 30px; }
+.z2 { background: var(--color-highlight); color: var(--color-primary); z-index: 2; left: 60px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="z-container">
+                <div class="z-box z1">z-index: 1</div>
+                <div class="z-box z2">z-index: 2</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Box Shadow -->
+        <section
+          id="box-shadow"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Box Shadow</h2>
+          <p>Add shadow effects to elements using the box-shadow property.</p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="shadow-demo"&gt;Box Shadow&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.shadow-demo { box-shadow: 0 4px 20px var(--color-accent); background: var(--color-card-bg); color: var(--color-text); padding: 20px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="shadow-demo">Box Shadow</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Text Shadow -->
+        <section
+          id="text-shadow"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Text Shadow</h2>
+          <p>Add shadow effects to text using the text-shadow property.</p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;span class="text-shadow-demo"&gt;Text Shadow&lt;/span&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.text-shadow-demo { text-shadow: 2px 2px 8px var(--color-accent); color: var(--color-highlight); font-size: 1.5rem; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <span class="text-shadow-demo">Text Shadow</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Outline -->
+        <section
+          id="outline"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Outline</h2>
+          <p>
+            The outline property creates an outline around an element, similar
+            to border but doesn't affect layout.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;button class="outline-demo"&gt;Outline Button&lt;/button&gt;
+&lt;input class="outline-input" type="text" placeholder="Focus me"&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.outline-demo {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 5px;
+    background: var(--color-secondary);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.outline-input {
+    outline: 2px solid var(--color-highlight);
+    outline-offset: 2px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <button class="outline-demo">Outline Button</button>
+              <input class="outline-input" type="text" placeholder="Focus me" />
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Transitions -->
+        <section
+          id="transitions"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Transitions</h2>
+          <p>
+            Create smooth transitions between property changes using
+            transition-property, transition-duration, and timing-function.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;button class="transition-btn"&gt;Hover Me&lt;/button&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.transition-btn { background: var(--color-accent); color: #fff; padding: 12px 24px; border: none; border-radius: 8px; transition: background 0.4s, color 0.4s; }
+.transition-btn:hover { background: var(--color-highlight); color: var(--color-primary); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <button class="transition-btn">Hover Me</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Animations -->
+
+        <!-- CSS Units -->
+
+        <!-- CSS Backgrounds -->
+
+        <!-- Borders -->
+
+        <!-- Lists Styling -->
+
+        <!-- Pseudo-classes -->
+
+        <!-- Pseudo-elements -->
+
+        <!-- CSS Links Styling -->
+
+        <!-- Fonts and Text Decoration -->
+
+        <!-- CSS Overflow -->
+
+        <!-- CSS Visibility -->
+
+        <!-- CSS Opacity -->
+
+        <!-- CSS Cursor -->
+
+        <!-- CSS Z-index -->
+
+        <!-- CSS Box Shadow -->
+
+        <!-- CSS Text Shadow -->
+
+        <!-- CSS Transitions -->
+
+        <!-- CSS Filters -->
+        <section
+          id="filters"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Filters</h2>
+          <p>
+            CSS filters apply visual effects like blur, brightness, contrast,
+            and grayscale to elements, allowing for creative image and element
+            manipulation.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="filter-blur"&gt;Blur Effect&lt;/div&gt;
+&lt;div class="filter-brightness"&gt;Brightness&lt;/div&gt;
+&lt;div class="filter-contrast"&gt;Contrast&lt;/div&gt;
+&lt;div class="filter-grayscale"&gt;Grayscale&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.filter-blur {
+  filter: blur(2px);
+  background: var(--color-accent);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.filter-brightness {
+  filter: brightness(150%);
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.filter-contrast {
+  filter: contrast(200%);
+  background: var(--color-highlight);
+  color: var(--color-primary);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.filter-grayscale {
+  filter: grayscale(100%);
+  background: var(--color-accent);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="filter-blur">Blur Effect</div>
+              <div class="filter-brightness">Brightness</div>
+              <div class="filter-contrast">Contrast</div>
+              <div class="filter-grayscale">Grayscale</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Backdrop Filter -->
+        <section
+          id="backdrop-filter"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Backdrop Filter</h2>
+          <p>
+            The backdrop-filter property applies filter effects to the area
+            behind an element, creating blur and other visual effects on the
+            background.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="backdrop-container"&gt;
+  &lt;div class="backdrop-demo"&gt;Backdrop Filter&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.backdrop-container {
+  background: linear-gradient(45deg, var(--color-accent), var(--color-secondary));
+  padding: 40px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+.backdrop-demo {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="backdrop-container">
+                <div class="backdrop-demo">Backdrop Filter</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Clip Path -->
+        <section
+          id="clip-path"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Clip Path</h2>
+          <p>
+            The clip-path property creates a clipping region that defines what
+            part of an element should be visible, allowing for creative shapes
+            and masks.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="clip-circle"&gt;Circle&lt;/div&gt;
+&lt;div class="clip-polygon"&gt;Polygon&lt;/div&gt;
+&lt;div class="clip-triangle"&gt;Triangle&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.clip-circle {
+  clip-path: circle(50%);
+  background: var(--color-accent);
+  color: #fff;
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.clip-polygon {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.clip-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: var(--color-highlight);
+  color: var(--color-primary);
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="clip-circle">Circle</div>
+              <div class="clip-polygon">Polygon</div>
+              <div class="clip-triangle">Triangle</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Mix Blend Mode -->
+        <section
+          id="mix-blend-mode"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Mix Blend Mode</h2>
+          <p>
+            The mix-blend-mode property defines how an element's content should
+            blend with the background of its parent and the element's
+            background.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="blend-container"&gt;
+  &lt;div class="blend-multiply"&gt;Multiply&lt;/div&gt;
+  &lt;div class="blend-screen"&gt;Screen&lt;/div&gt;
+  &lt;div class="blend-overlay"&gt;Overlay&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.blend-container {
+  background: var(--color-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.blend-multiply {
+  mix-blend-mode: multiply;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+.blend-screen {
+  mix-blend-mode: screen;
+  background: var(--color-highlight);
+  color: var(--color-primary);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+.blend-overlay {
+  mix-blend-mode: overlay;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="blend-container">
+                <div class="blend-multiply">Multiply</div>
+                <div class="blend-screen">Screen</div>
+                <div class="blend-overlay">Overlay</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Columns -->
+        <section
+          id="columns"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Columns</h2>
+          <p>
+            CSS columns allow you to create multi-column text layouts, similar
+            to newspaper columns, using column-count and column-gap properties.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="columns-demo"&gt;
+  &lt;p&gt;This is a long paragraph that will be displayed in multiple columns. The text will flow from one column to the next, creating a newspaper-like layout. This demonstrates how CSS columns can be used to create interesting text layouts.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.columns-demo {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 2px solid var(--color-accent);
+  background: var(--color-card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--color-text);
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="columns-demo">
+                <p>
+                  This is a long paragraph that will be displayed in multiple
+                  columns. The text will flow from one column to the next,
+                  creating a newspaper-like layout. This demonstrates how CSS
+                  columns can be used to create interesting text layouts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Writing Modes -->
+        <section
+          id="writing-modes"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Writing Modes</h2>
+          <p>
+            Writing modes control the direction of text flow, allowing for
+            vertical text layouts and different writing directions.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="writing-horizontal"&gt;Horizontal Text&lt;/div&gt;
+&lt;div class="writing-vertical-rl"&gt;Vertical Right to Left&lt;/div&gt;
+&lt;div class="writing-vertical-lr"&gt;Vertical Left to Right&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.writing-horizontal {
+  writing-mode: horizontal-tb;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.writing-vertical-rl {
+  writing-mode: vertical-rl;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+  height: 100px;
+}
+.writing-vertical-lr {
+  writing-mode: vertical-lr;
+  background: var(--color-highlight);
+  color: var(--color-primary);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+  height: 100px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="writing-horizontal">Horizontal Text</div>
+              <div class="writing-vertical-rl">Vertical Right to Left</div>
+              <div class="writing-vertical-lr">Vertical Left to Right</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Writing Direction -->
+        <section
+          id="writing-direction"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Writing Direction</h2>
+          <p>
+            The direction property sets the text direction, allowing for
+            left-to-right (ltr) or right-to-left (rtl) text flow.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="direction-ltr"&gt;Left to Right Text&lt;/div&gt;
+&lt;div class="direction-rtl"&gt;Right to Left Text&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.direction-ltr {
+  direction: ltr;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.direction-rtl {
+  direction: rtl;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="direction-ltr">Left to Right Text</div>
+              <div class="direction-rtl">Right to Left Text</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Text Overflow -->
+        <section
+          id="text-overflow"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Text Overflow</h2>
+          <p>
+            The text-overflow property controls how text that overflows its
+            container is displayed, commonly used with ellipsis (...) to
+            indicate truncated text.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="overflow-ellipsis"&gt;This is a very long text that will be truncated with ellipsis when it overflows the container&lt;/div&gt;
+&lt;div class="overflow-clip"&gt;This text will be clipped when it overflows&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.overflow-ellipsis {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.overflow-clip {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="overflow-ellipsis">
+                This is a very long text that will be truncated with ellipsis
+                when it overflows the container
+              </div>
+              <div class="overflow-clip">
+                This text will be clipped when it overflows
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Hyphens -->
+        <section
+          id="hyphens"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Hyphens</h2>
+          <p>
+            The hyphens property controls automatic hyphenation of words,
+            allowing for better text flow and layout in narrow containers.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="hyphens-auto"&gt;This is a very long word that might need hyphenation: supercalifragilisticexpialidocious&lt;/div&gt;
+&lt;div class="hyphens-manual"&gt;Manual hyphenation example&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.hyphens-auto {
+  width: 150px;
+  hyphens: auto;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.hyphens-manual {
+  width: 150px;
+  hyphens: manual;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="hyphens-auto">
+                This is a very long word that might need hyphenation:
+                supercalifragilisticexpialidocious
+              </div>
+              <div class="hyphens-manual">Manual hyphenation example</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Overflow Wrap -->
+        <section
+          id="overflow-wrap"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Overflow Wrap</h2>
+          <p>
+            The overflow-wrap property controls how words break when they exceed
+            the container width, allowing for better text flow and preventing
+            horizontal overflow.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="wrap-normal"&gt;This is a very long word that might not break properly: supercalifragilisticexpialidocious&lt;/div&gt;
+&lt;div class="wrap-break-word"&gt;This is a very long word that will break: supercalifragilisticexpialidocious&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.wrap-normal {
+  width: 150px;
+  overflow-wrap: normal;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.wrap-break-word {
+  width: 150px;
+  overflow-wrap: break-word;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="wrap-normal">
+                This is a very long word that might not break properly:
+                supercalifragilisticexpialidocious
+              </div>
+              <div class="wrap-break-word">
+                This is a very long word that will break:
+                supercalifragilisticexpialidocious
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Object Fit -->
+        <section
+          id="object-fit"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Object Fit</h2>
+          <p>
+            The object-fit property specifies how an element's content should be
+            resized to fit its container.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="object-container"&gt;
+  &lt;div class="object-contain"&gt;Contain&lt;/div&gt;
+  &lt;div class="object-cover"&gt;Cover&lt;/div&gt;
+  &lt;div class="object-fill"&gt;Fill&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.object-container { display: flex; gap: 10px; margin: 20px 0; }
+.object-contain, .object-cover, .object-fill {
+  width: 100px; height: 100px; border: 2px solid var(--color-accent);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: bold;
+}
+.object-contain { background: var(--color-secondary); color: #fff; }
+.object-cover { background: var(--color-highlight); color: var(--color-primary); }
+.object-fill { background: var(--color-accent); color: #fff; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="object-container">
+                <div class="object-contain">Contain</div>
+                <div class="object-cover">Cover</div>
+                <div class="object-fill">Fill</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Object Position -->
+        <section
+          id="object-position"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Object Position</h2>
+          <p>
+            The object-position property specifies the alignment of an element's
+            content within its container.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="object-pos-center"&gt;Center&lt;/div&gt;
+&lt;div class="object-pos-top"&gt;Top&lt;/div&gt;
+&lt;div class="object-pos-bottom"&gt;Bottom&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.object-pos-center, .object-pos-top, .object-pos-bottom {
+  width: 120px; height: 80px; border: 2px solid var(--color-accent);
+  margin: 10px; display: flex; align-items: center; justify-content: center;
+  font-weight: bold;
+}
+.object-pos-center { background: var(--color-secondary); color: #fff; }
+.object-pos-top { background: var(--color-highlight); color: var(--color-primary); }
+.object-pos-bottom { background: var(--color-accent); color: #fff; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="object-pos-center">Center</div>
+              <div class="object-pos-top">Top</div>
+              <div class="object-pos-bottom">Bottom</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Content -->
+        <section
+          id="content"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Content</h2>
+          <p>
+            The content property is used with ::before and ::after
+            pseudo-elements to insert generated content.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="content-before"&gt;Before Content&lt;/div&gt;
+&lt;div class="content-after"&gt;After Content&lt;/div&gt;
+&lt;div class="content-both"&gt;Both Content&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.content-before::before { content: "→ "; color: var(--color-accent); }
+.content-after::after { content: " ←"; color: var(--color-highlight); }
+.content-both::before { content: "★ "; color: var(--color-accent); }
+.content-both::after { content: " ★"; color: var(--color-highlight); }
+.content-before, .content-after, .content-both {
+  background: var(--color-card-bg); color: var(--color-text);
+  padding: 15px; margin: 10px 0; border-radius: 8px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="content-before">Before Content</div>
+              <div class="content-after">After Content</div>
+              <div class="content-both">Both Content</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Counters -->
+        <section
+          id="counters"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Counters</h2>
+          <p>
+            CSS counters let you create automatic numbering for elements using
+            counter-reset and counter-increment.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="counter-container"&gt;
+  &lt;div class="counter-item"&gt;First Item&lt;/div&gt;
+  &lt;div class="counter-item"&gt;Second Item&lt;/div&gt;
+  &lt;div class="counter-item"&gt;Third Item&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.counter-container { counter-reset: item-counter; }
+.counter-item {
+  counter-increment: item-counter;
+  background: var(--color-accent); color: #fff;
+  padding: 10px; margin: 5px 0; border-radius: 5px;
+}
+.counter-item::before { content: counter(item-counter) ". "; font-weight: bold; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="counter-container">
+                <div class="counter-item">First Item</div>
+                <div class="counter-item">Second Item</div>
+                <div class="counter-item">Third Item</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS List Style -->
+        <section
+          id="list-style"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS List Style</h2>
+          <p>
+            Control list appearance with list-style-type, list-style-position,
+            and list-style-image properties.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;ul class="custom-counter"&gt;
+  &lt;li&gt;Custom Item 1&lt;/li&gt;
+  &lt;li&gt;Custom Item 2&lt;/li&gt;
+  &lt;li&gt;Custom Item 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.custom-counter { list-style: custom; background: var(--color-card-bg); padding: 20px; border-radius: 10px; color: var(--color-text); }
+.custom-counter li { margin: 10px 0; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <ul class="custom-counter">
+                <li>Custom Item 1</li>
+                <li>Custom Item 2</li>
+                <li>Custom Item 3</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS User Select -->
+        <section
+          id="user-select"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS User Select</h2>
+          <p>
+            The user-select property controls whether the text can be selected
+            by the user.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="select-all"&gt;Select All Text&lt;/div&gt;
+&lt;div class="select-none"&gt;Cannot Select This&lt;/div&gt;
+&lt;div class="select-text"&gt;Select Text Only&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.select-all { user-select: all; background: var(--color-accent); color: #fff; padding: 15px; margin: 10px 0; border-radius: 8px; }
+.select-none { user-select: none; background: var(--color-secondary); color: #fff; padding: 15px; margin: 10px 0; border-radius: 8px; }
+.select-text { user-select: text; background: var(--color-highlight); color: var(--color-primary); padding: 15px; margin: 10px 0; border-radius: 8px; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="select-all">Select All Text</div>
+              <div class="select-none">Cannot Select This</div>
+              <div class="select-text">Select Text Only</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Resize -->
+        <section
+          id="resize"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Resize</h2>
+          <p>
+            The resize property allows users to resize elements by dragging
+            their edges.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="resize-both"&gt;Resize Both&lt;/div&gt;
+&lt;div class="resize-horizontal"&gt;Resize Horizontal&lt;/div&gt;
+&lt;div class="resize-vertical"&gt;Resize Vertical&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.resize-both, .resize-horizontal, .resize-vertical {
+  width: 200px; height: 100px; background: var(--color-card-bg);
+  color: var(--color-text); border-radius: 8px; padding: 10px; margin: 10px;
+}
+.resize-both { resize: both; border: 2px solid var(--color-accent); }
+.resize-horizontal { resize: horizontal; border: 2px solid var(--color-secondary); }
+.resize-vertical { resize: vertical; border: 2px solid var(--color-highlight); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="resize-both">Resize Both</div>
+              <div class="resize-horizontal">Resize Horizontal</div>
+              <div class="resize-vertical">Resize Vertical</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Pointer Events -->
+        <section
+          id="pointer-events"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Pointer Events</h2>
+          <p>
+            The pointer-events property controls whether an element can be the
+            target of pointer events.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="pointer-container"&gt;
+  &lt;button class="pointer-auto"&gt;Clickable&lt;/button&gt;
+  &lt;button class="pointer-none"&gt;Not Clickable&lt;/button&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.pointer-container { display: flex; gap: 10px; margin: 20px 0; }
+.pointer-auto, .pointer-none {
+  padding: 15px; border: none; border-radius: 8px; cursor: pointer;
+}
+.pointer-auto { pointer-events: auto; background: var(--color-accent); color: #fff; }
+.pointer-none { pointer-events: none; background: var(--color-secondary); color: #fff; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="pointer-container">
+                <button class="pointer-auto">Clickable</button>
+                <button class="pointer-none">Not Clickable</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Tab Size -->
+        <section
+          id="tab-size"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Tab Size</h2>
+          <p>The tab-size property specifies the width of a tab character.</p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;pre class="tab-small"&gt;Small Tab:	Text&lt;/pre&gt;
+&lt;pre class="tab-large"&gt;Large Tab:	Text&lt;/pre&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.tab-small, .tab-large {
+  background: var(--color-card-bg); color: var(--color-text);
+  padding: 15px; border-radius: 8px; margin: 10px 0;
+}
+.tab-small { tab-size: 2; border: 1px solid var(--color-accent); }
+.tab-large { tab-size: 8; border: 1px solid var(--color-secondary); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <pre class="tab-small">Small Tab:	Text</pre>
+              <pre class="tab-large">Large Tab:	Text</pre>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Scroll Snap -->
+        <section
+          id="scroll-snap"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Scroll Snap</h2>
+          <p>
+            Scroll snap provides a way to control the scrolling behavior and
+            snap points of a scroll container.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="scroll-snap-container"&gt;
+  &lt;div class="snap-item"&gt;Snap Item 1&lt;/div&gt;
+  &lt;div class="snap-item"&gt;Snap Item 2&lt;/div&gt;
+  &lt;div class="snap-item"&gt;Snap Item 3&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.scroll-snap-container {
+  scroll-snap-type: y mandatory; height: 200px; overflow-y: scroll;
+  background: var(--color-card-bg); border-radius: 10px; padding: 10px;
+}
+.snap-item {
+  scroll-snap-align: start; height: 150px; background: var(--color-accent);
+  color: #fff; margin: 10px 0; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="scroll-snap-container">
+                <div class="snap-item">Snap Item 1</div>
+                <div class="snap-item">Snap Item 2</div>
+                <div class="snap-item">Snap Item 3</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Scrollbar Styling -->
+        <section
+          id="scrollbar-styling"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Scrollbar Styling</h2>
+          <p>
+            Customize scrollbar appearance using scrollbar-width,
+            scrollbar-color, and webkit scrollbar properties.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="custom-scrollbar"&gt;
+  &lt;p&gt;Custom scrollbar with thin width and custom colors.&lt;/p&gt;
+  &lt;p&gt;This content is long enough to show the scrollbar.&lt;/p&gt;
+  &lt;p&gt;You can style scrollbars using CSS properties.&lt;/p&gt;
+  &lt;p&gt;Webkit browsers support detailed scrollbar styling.&lt;/p&gt;
+  &lt;p&gt;Firefox supports scrollbar-width and scrollbar-color.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.custom-scrollbar {
+  height: 150px; overflow-y: scroll; background: var(--color-card-bg);
+  padding: 20px; border-radius: 10px; color: var(--color-text);
+  scrollbar-width: thin; scrollbar-color: var(--color-accent) var(--color-card-bg);
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="custom-scrollbar">
+                <p>Custom scrollbar with thin width and custom colors.</p>
+                <p>This content is long enough to show the scrollbar.</p>
+                <p>You can style scrollbars using CSS properties.</p>
+                <p>Webkit browsers support detailed scrollbar styling.</p>
+                <p>Firefox supports scrollbar-width and scrollbar-color.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Overflow Anchor -->
+        <section
+          id="overflow-anchor"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Overflow Anchor</h2>
+          <p>
+            The overflow-anchor property controls the scroll anchoring behavior
+            of a scrolling box.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="anchor-container"&gt;
+  &lt;div class="anchor-content"&gt;Anchored Content 1&lt;/div&gt;
+  &lt;div class="anchor-content"&gt;Anchored Content 2&lt;/div&gt;
+  &lt;div class="anchor-content"&gt;Anchored Content 3&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.anchor-container {
+  height: 200px; overflow-y: auto; background: var(--color-card-bg);
+  border-radius: 10px; padding: 20px;
+}
+.anchor-content {
+  overflow-anchor: auto; background: var(--color-accent); color: #fff;
+  padding: 15px; border-radius: 8px; margin: 10px 0;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="anchor-container">
+                <div class="anchor-content">Anchored Content 1</div>
+                <div class="anchor-content">Anchored Content 2</div>
+                <div class="anchor-content">Anchored Content 3</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Will Change -->
+        <section
+          id="will-change"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Will Change</h2>
+          <p>
+            The will-change property hints to browsers about which properties
+            are expected to change, enabling optimizations.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="will-change-transform"&gt;Transform Optimized&lt;/div&gt;
+&lt;div class="will-change-opacity"&gt;Opacity Optimized&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.will-change-transform, .will-change-opacity {
+  padding: 20px; margin: 10px 0; border-radius: 8px; text-align: center;
+  transition: all 0.3s ease;
+}
+.will-change-transform { will-change: transform; background: var(--color-accent); color: #fff; }
+.will-change-transform:hover { transform: scale(1.1); }
+.will-change-opacity { will-change: opacity; background: var(--color-secondary); color: #fff; }
+.will-change-opacity:hover { opacity: 0.7; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="will-change-transform">Transform Optimized</div>
+              <div class="will-change-opacity">Opacity Optimized</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Isolation -->
+        <section
+          id="isolation"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Isolation</h2>
+          <p>
+            The isolation property creates a new stacking context and controls
+            how elements are composited.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="isolation-demo"&gt;
+  &lt;div class="isolated-element"&gt;Isolated Element&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.isolation-demo { background: var(--color-card-bg); padding: 20px; border-radius: 10px; margin: 20px 0; }
+.isolated-element {
+  isolation: isolate; background: var(--color-accent); color: #fff;
+  padding: 15px; border-radius: 8px; text-align: center; font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="isolation-demo">
+                <div class="isolated-element">Isolated Element</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Aspect Ratio -->
+        <section
+          id="aspect-ratio"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Aspect Ratio</h2>
+          <p>
+            The aspect-ratio property sets the preferred aspect ratio for an
+            element's box.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="aspect-square"&gt;Square&lt;/div&gt;
+&lt;div class="aspect-video"&gt;Video&lt;/div&gt;
+&lt;div class="aspect-photo"&gt;Photo&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.aspect-square, .aspect-video, .aspect-photo {
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 8px; margin: 10px; font-weight: bold;
+}
+.aspect-square { aspect-ratio: 1 / 1; width: 150px; background: var(--color-accent); color: #fff; }
+.aspect-video { aspect-ratio: 16 / 9; width: 200px; background: var(--color-secondary); color: #fff; }
+.aspect-photo { aspect-ratio: 4 / 3; width: 180px; background: var(--color-highlight); color: var(--color-primary); }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="aspect-square">Square</div>
+              <div class="aspect-video">Video</div>
+              <div class="aspect-photo">Photo</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Environment Variables -->
+        <section
+          id="env-variables"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Environment Variables</h2>
+          <p>
+            CSS environment variables provide access to environment information
+            like safe area insets for mobile devices.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="env-demo"&gt;Environment Variables Demo&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.env-demo {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background: var(--color-accent); color: #fff; padding: 20px;
+  border-radius: 10px; text-align: center; font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="env-demo">Environment Variables Demo</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Clamp -->
+        <section
+          id="clamp"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Clamp</h2>
+          <p>
+            The clamp() function clamps a value between an upper and lower
+            bound, with a preferred value.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="clamp-demo"&gt;Responsive Text with Clamp&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.clamp-demo {
+  font-size: clamp(1rem, 4vw, 2rem);
+  background: var(--color-secondary); color: #fff; padding: 20px;
+  border-radius: 10px; text-align: center; font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="clamp-demo">Responsive Text with Clamp</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Supports -->
+        <section
+          id="supports"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Supports</h2>
+          <p>
+            The @supports rule tests whether the browser supports a specific CSS
+            feature.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="supports-demo"&gt;Feature Support Demo&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>@supports (display: grid) {
+  .supports-demo { background: var(--color-accent); color: #fff; padding: 20px; border-radius: 10px; text-align: center; font-weight: bold; }
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="supports-demo">Feature Support Demo</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Logical Properties -->
+        <section
+          id="logical-properties"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Logical Properties</h2>
+          <p>
+            Logical properties provide writing-mode and direction-aware
+            alternatives to physical properties.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="logical-demo"&gt;Logical Properties Demo&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.logical-demo {
+  margin-inline: 20px; padding-block: 15px;
+  background: var(--color-secondary); color: #fff; border-radius: 10px;
+  text-align: center; font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="logical-demo">Logical Properties Demo</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Shape Outside -->
+        <section
+          id="shape-outside"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Shape Outside</h2>
+          <p>
+            The shape-outside property defines a shape around which inline
+            content should wrap.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="shape-container"&gt;
+  &lt;div class="shape-circle"&gt;&lt;/div&gt;
+  &lt;p&gt;This text wraps around the circular shape. The shape-outside property allows content to flow around custom shapes, creating interesting layouts.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.shape-container { background: var(--color-card-bg); padding: 20px; border-radius: 10px; color: var(--color-text); }
+.shape-circle {
+  width: 100px; height: 100px; background: var(--color-accent);
+  border-radius: 50%; float: left; shape-outside: circle(50%);
+  margin: 0 20px 20px 0;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="shape-container">
+                <div class="shape-circle"></div>
+                <p>
+                  This text wraps around the circular shape. The shape-outside
+                  property allows content to flow around custom shapes, creating
+                  interesting layouts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Table Styling -->
+        <section
+          id="table-styling"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Table Styling</h2>
+          <p>
+            Style tables using table-layout, border-collapse, and other
+            table-specific properties.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;table class="styled-table"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;Header 1&lt;/th&gt;&lt;th&gt;Header 2&lt;/th&gt;&lt;th&gt;Header 3&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Data 1&lt;/td&gt;&lt;td&gt;Data 2&lt;/td&gt;&lt;td&gt;Data 3&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Data 4&lt;/td&gt;&lt;td&gt;Data 5&lt;/td&gt;&lt;td&gt;Data 6&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.styled-table {
+  border-collapse: collapse; table-layout: fixed; width: 100%;
+  background: var(--color-card-bg); border-radius: 10px; overflow: hidden; margin: 20px 0;
+}
+.styled-table th, .styled-table td {
+  border: 1px solid var(--color-accent); padding: 15px; text-align: center; color: var(--color-text);
+}
+.styled-table th { background: var(--color-accent); color: #fff; font-weight: bold; }</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <table class="styled-table">
+                <thead>
+                  <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                  </tr>
+                  <tr>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Counter Styles -->
+        <section
+          id="counter-styles"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Counter Styles</h2>
+          <p>
+            Customize counter appearance using @counter-style rule for unique
+            numbering systems.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;ol class="custom-counter"&gt;
+  &lt;li&gt;First Item&lt;/li&gt;
+  &lt;li&gt;Second Item&lt;/li&gt;
+  &lt;li&gt;Third Item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>@counter-style custom {
+    system: numeric;
+    symbols: "★" "★★" "★★★" "★★★★" "★★★★★";
+    suffix: " ";
+}
+
+.custom-counter {
+    list-style: custom;
+    background: var(--color-card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color-text);
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <ol class="custom-counter">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Lists and Counters -->
+        <section
+          id="lists-counters"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Lists and Counters</h2>
+          <p>Advanced list styling with custom counters and list markers.</p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="counter-container"&gt;
+  &lt;h3&gt;Chapter 1&lt;/h3&gt;
+  &lt;h4&gt;Section 1.1&lt;/h4&gt;
+  &lt;h4&gt;Section 1.2&lt;/h4&gt;
+  &lt;h3&gt;Chapter 2&lt;/h3&gt;
+  &lt;h4&gt;Section 2.1&lt;/h4&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.counter-container {
+    counter-reset: chapter;
+    background: var(--color-card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color-text);
+}
+
+.counter-container h3 {
+    counter-increment: chapter;
+    counter-reset: section;
+    color: var(--color-accent);
+}
+
+.counter-container h3::before {
+    content: "Chapter " counter(chapter) ": ";
+    font-weight: bold;
+}
+
+.counter-container h4 {
+    counter-increment: section;
+    margin-left: 20px;
+    color: var(--color-secondary);
+}
+
+.counter-container h4::before {
+    content: counter(chapter) "." counter(section) " ";
+    font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="counter-container">
+                <h3>Chapter 1</h3>
+                <h4>Section 1.1</h4>
+                <h4>Section 1.2</h4>
+                <h3>Chapter 2</h3>
+                <h4>Section 2.1</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Scroll Behavior -->
+        <section
+          id="scroll-behavior"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Scroll Behavior</h2>
+          <p>
+            Control scrolling behavior with scroll-behavior property for smooth
+            or instant scrolling.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;html style="scroll-behavior: smooth;"&gt;
+&lt;div class="scroll-demo"&gt;
+  &lt;a href="#top"&gt;Go to Top&lt;/a&gt;
+  &lt;div id="top" style="height: 200px; background: var(--color-accent);"&gt;Top&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>html {
+    scroll-behavior: smooth;
+}
+
+.scroll-demo a {
+    display: inline-block;
+    background: var(--color-highlight);
+    color: var(--color-primary);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="scroll-demo">
+                <a href="#scroll-top">Go to Top</a>
+                <div
+                  id="scroll-top"
+                  style="
+                    height: 100px;
+                    background: var(--color-accent);
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                  "
+                >
+                  Top
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Scroll Snap Points -->
+        <section
+          id="scroll-snap-points"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Scroll Snap Points</h2>
+          <p>
+            Define specific snap points for scroll containers using
+            scroll-snap-align.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="snap-container"&gt;
+  &lt;div class="snap-item"&gt;Snap Point 1&lt;/div&gt;
+  &lt;div class="snap-item"&gt;Snap Point 2&lt;/div&gt;
+  &lt;div class="snap-item"&gt;Snap Point 3&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.snap-container {
+    scroll-snap-type: y mandatory;
+    height: 200px;
+    overflow-y: scroll;
+    background: var(--color-card-bg);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.snap-item {
+    scroll-snap-align: start;
+    height: 150px;
+    background: var(--color-accent);
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="snap-container">
+                <div class="snap-item">Snap Point 1</div>
+                <div class="snap-item">Snap Point 2</div>
+                <div class="snap-item">Snap Point 3</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Scrollbar Track -->
+        <section
+          id="scrollbar-track"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Scrollbar Track</h2>
+          <p>
+            Style the scrollbar track and thumb using webkit scrollbar
+            properties.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="custom-scrollbar"&gt;
+  &lt;p&gt;Custom scrollbar with styled track and thumb.&lt;/p&gt;
+  &lt;p&gt;This content is long enough to show the scrollbar.&lt;/p&gt;
+  &lt;p&gt;You can style scrollbar-track and scrollbar-thumb.&lt;/p&gt;
+  &lt;p&gt;Webkit browsers support detailed scrollbar styling.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.custom-scrollbar {
+    height: 150px;
+    overflow-y: scroll;
+    background: var(--color-card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color-text);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: var(--color-secondary);
+    border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--color-accent);
+    border-radius: 6px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="custom-scrollbar">
+                <p>Custom scrollbar with styled track and thumb.</p>
+                <p>This content is long enough to show the scrollbar.</p>
+                <p>You can style scrollbar-track and scrollbar-thumb.</p>
+                <p>Webkit browsers support detailed scrollbar styling.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Will Change Performance -->
+        <section
+          id="will-change-performance"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Will Change Performance</h2>
+          <p>
+            Optimize performance by using will-change property to hint browsers
+            about expected changes.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="performance-demo"&gt;
+  &lt;div class="will-change-transform"&gt;Transform Optimized&lt;/div&gt;
+  &lt;div class="will-change-opacity"&gt;Opacity Optimized&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.will-change-transform, .will-change-opacity {
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.will-change-transform {
+    will-change: transform;
+    background: var(--color-accent);
+    color: #fff;
+}
+
+.will-change-transform:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.will-change-opacity {
+    will-change: opacity;
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.will-change-opacity:hover {
+    opacity: 0.7;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="performance-demo">
+                <div class="will-change-transform">Transform Optimized</div>
+                <div class="will-change-opacity">Opacity Optimized</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Media Queries -->
+        <section
+          id="media-queries"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Media Queries</h2>
+          <p>
+            Media queries allow you to apply different styles based on device
+            characteristics like screen size, orientation, and resolution.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="responsive-box"&gt;Responsive Box&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.responsive-box {
+    background: var(--color-accent);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .responsive-box {
+        background: var(--color-secondary);
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
+/* Desktop devices */
+@media (min-width: 1024px) {
+    .responsive-box {
+        background: var(--color-highlight);
+        color: var(--color-primary);
+        font-size: 18px;
+        padding: 30px;
+    }
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="responsive-box">Responsive Box</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Variables -->
+        <section
+          id="variables"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Variables</h2>
+          <p>
+            CSS custom properties (variables) allow you to store and reuse
+            values throughout your stylesheet.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="variable-demo"&gt;CSS Variables Demo&lt;/div&gt;
+&lt;button class="variable-btn"&gt;Variable Button&lt;/button&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #4ecdc4;
+    --spacing: 20px;
+    --border-radius: 8px;
+}
+
+.variable-demo {
+    background: var(--primary-color);
+    color: #fff;
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+}
+
+.variable-btn {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: calc(var(--spacing) / 2);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="variable-demo">CSS Variables Demo</div>
+              <button class="variable-btn">Variable Button</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Calc Function -->
+        <section
+          id="calc"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Calc Function</h2>
+          <p>
+            The calc() function allows you to perform calculations to determine
+            CSS property values.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="calc-container"&gt;
+  &lt;div class="calc-item"&gt;Calc Item&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.calc-container {
+    width: 100%;
+    height: 100px;
+    background: var(--color-card-bg);
+    border-radius: 8px;
+    position: relative;
+}
+
+.calc-item {
+    width: calc(100% - 40px);
+    height: calc(100% - 20px);
+    background: var(--color-accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="calc-container">
+                <div class="calc-item">Calc Item</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Specificity -->
+        <section
+          id="specificity"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Specificity</h2>
+          <p>
+            CSS specificity determines which styles are applied when multiple
+            rules target the same element.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="specificity-demo" id="unique-id"&gt;Specificity Demo&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>/* Element selector - specificity: 0,0,0,1 */
+div {
+    background: var(--color-secondary);
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Class selector - specificity: 0,0,1,0 */
+.specificity-demo {
+    background: var(--color-accent);
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* ID selector - specificity: 0,1,0,0 */
+#unique-id {
+    background: var(--color-highlight);
+    color: var(--color-primary);
+    padding: 15px;
+    border-radius: 8px;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="specificity-demo" id="unique-id">
+                Specificity Demo
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS Inheritance -->
+        <section
+          id="inheritance"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS Inheritance</h2>
+          <p>
+            CSS inheritance allows child elements to inherit certain properties
+            from their parent elements.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="inheritance-parent"&gt;
+  &lt;p&gt;Inherited text&lt;/p&gt;
+  &lt;span&gt;Also inherited&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.inheritance-parent {
+    color: var(--color-accent);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background: var(--color-card-bg);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.inheritance-parent p,
+.inheritance-parent span {
+    /* These inherit color, font-family, and font-size from parent */
+    margin: 10px 0;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="inheritance-parent">
+                <p>Inherited text</p>
+                <span>Also inherited</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS !important -->
+        <section
+          id="important"
+          class="lesson-card"
+          style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+        >
+          <h2>CSS !important</h2>
+          <p>
+            The !important declaration gives a CSS property the highest
+            specificity, overriding other styles.
+          </p>
+          <div class="example-container">
+            <h3>HTML Example:</h3>
+            <div class="code-block">
+              <pre><code>&lt;div class="important-demo"&gt;!important Demo&lt;/div&gt;</code></pre>
+            </div>
+            <h3>CSS Example:</h3>
+            <div class="code-block">
+              <pre><code>.important-demo {
+    background: var(--color-secondary);
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.important-demo {
+    background: var(--color-accent) !important;
+    color: #fff !important;
+}</code></pre>
+            </div>
+            <h3>Result:</h3>
+            <div class="result-box">
+              <div class="important-demo">!important Demo</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- CSS Learning Resources -->
+      <section
+        id="resources"
+        class="lesson-card"
+        style="opacity: 1; transform: translateY(0px); transition: 0.5s"
+      >
+        <h2>CSS Learning Resources</h2>
+        <p>
+          Here are some excellent resources to help you master CSS and stay
+          updated with the latest techniques and best practices.
+        </p>
+
+        <div class="resources-grid">
+          <div class="resource-card">
+            <h3>📚 Official Documentation</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  target="_blank"
+                  >MDN Web Docs - CSS</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3.org/Style/CSS/" target="_blank"
+                  >W3C CSS Specifications</a
+                >
+              </li>
+              <li>
+                <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource-card">
+            <h3>🎓 Learning Platforms</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/learn/responsive-web-design/"
+                  target="_blank"
+                  >freeCodeCamp</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.codecademy.com/learn/learn-css"
+                  target="_blank"
+                  >Codecademy</a
+                >
+              </li>
+              <li>
+                <a href="https://www.udemy.com/topic/css/" target="_blank"
+                  >Udemy CSS Courses</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/courses?query=css"
+                  target="_blank"
+                  >Coursera</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource-card">
+            <h3>🛠️ Tools &amp; Generators</h3>
+            <ul>
+              <li>
+                <a href="https://caniuse.com/" target="_blank">Can I Use</a>
+              </li>
+              <li>
+                <a href="https://cssgenerator.org/" target="_blank"
+                  >CSS Generator</a
+                >
+              </li>
+              <li>
+                <a href="https://www.cssportal.com/" target="_blank"
+                  >CSS Portal</a
+                >
+              </li>
+              <li>
+                <a href="https://www.cssmatic.com/" target="_blank">CSSmatic</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource-card">
+            <h3>🎨 Design &amp; Inspiration</h3>
+            <ul>
+              <li>
+                <a href="https://dribbble.com/tags/css" target="_blank"
+                  >Dribbble CSS</a
+                >
+              </li>
+              <li>
+                <a href="https://www.awwwards.com/" target="_blank">Awwwards</a>
+              </li>
+              <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+              <li>
+                <a href="https://jsfiddle.net/" target="_blank">JSFiddle</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource-card">
+            <h3>📖 Books &amp; References</h3>
+            <ul>
+              <li>"CSS: The Definitive Guide" by Eric A. Meyer</li>
+              <li>"CSS Secrets" by Lea Verou</li>
+              <li>"Flexbox in CSS" by Estelle Weyl</li>
+              <li>"Grid Layout in CSS" by Eric A. Meyer</li>
+            </ul>
+          </div>
+
+          <div class="resource-card">
+            <h3>🎯 Practice &amp; Challenges</h3>
+            <ul>
+              <li>
+                <a href="https://www.frontendmentor.io/" target="_blank"
+                  >Frontend Mentor</a
+                >
+              </li>
+              <li>
+                <a href="https://cssbattle.dev/" target="_blank">CSS Battle</a>
+              </li>
+              <li>
+                <a href="https://100dayscss.com/" target="_blank"
+                  >100 Days CSS</a
+                >
+              </li>
+              <li>
+                <a href="https://daily.dev/" target="_blank">Daily.dev</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resources-tips">
+          <h3>💡 Pro Tips for CSS Mastery</h3>
+          <ul>
+            <li>
+              <strong>Practice Daily:</strong> Build small projects every day to
+              reinforce your skills
+            </li>
+            <li>
+              <strong>Use CSS Variables:</strong> Implement CSS custom
+              properties for maintainable code
+            </li>
+            <li>
+              <strong>Learn Flexbox &amp; Grid:</strong> Master modern layout
+              techniques
+            </li>
+            <li>
+              <strong>Responsive Design:</strong> Always design with
+              mobile-first approach
+            </li>
+            <li>
+              <strong>Browser DevTools:</strong> Use browser developer tools to
+              experiment and debug
+            </li>
+            <li>
+              <strong>Stay Updated:</strong> Follow CSS blogs and attend web
+              development conferences
+            </li>
+            <li>
+              <strong>Code Review:</strong> Review and refactor your CSS
+              regularly
+            </li>
+            <li>
+              <strong>Performance:</strong> Optimize CSS for better loading
+              times
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          © 2024 CSS Reference Guide. Made with ❤️ by
+          <a href="https://github.com/abo-al-magd-404" target="_blank"
+            >Abo Al Magd</a
+          >.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Hero buttons functionality
+      document
+        .querySelector(".btn-primary")
+        .addEventListener("click", function () {
+          // Scroll to first nav card
+          const firstNavCard = document.querySelector(".nav-card");
+          if (firstNavCard) {
+            firstNavCard.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+
+      document
+        .querySelector(".btn-secondary")
+        .addEventListener("click", function () {
+          // Scroll to first lesson card (first section)
+          const firstLessonCard = document.querySelector(".lesson-card");
+          if (firstLessonCard) {
+            firstLessonCard.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+
+      // Add scroll effect to nav cards
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Observe all nav cards and lesson cards
+      document.querySelectorAll(".nav-card, .lesson-card").forEach((card) => {
+        observer.observe(card);
+      });
+
+      // Ensure all sections are visible on page load
+      window.addEventListener("load", function () {
+        // Force visibility for all lesson cards
+        document.querySelectorAll(".lesson-card").forEach((card) => {
+          card.style.opacity = "1";
+          card.style.transform = "translateY(0)";
+        });
+
+        // Add a small delay to ensure smooth animations
+        setTimeout(() => {
+          document.querySelectorAll(".lesson-card").forEach((card) => {
+            card.style.transition = "all 0.5s ease";
+          });
+        }, 100);
+      });
+
+      // Debug: Log all sections to console
+      console.log(
+        "Total lesson cards found:",
+        document.querySelectorAll(".lesson-card").length
+      );
+      console.log(
+        "Total nav cards found:",
+        document.querySelectorAll(".nav-card").length
+      );
+
+      // Remove duplicate sections by heading (name)
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section");
+        const seenHeadings = new Set();
+        let removedCount = 0;
+
+        sections.forEach((section) => {
+          // ابحث عن أول عنوان داخل السكشن (h1 أو h2 أو h3)
+          const heading = section.querySelector("h1, h2, h3");
+          if (heading) {
+            const headingText = heading.textContent.trim();
+            if (headingText && seenHeadings.has(headingText)) {
+              section.remove();
+              removedCount++;
+            } else if (headingText) {
+              seenHeadings.add(headingText);
+            }
+          }
+        });
+
+        // Remove empty sections or sections without headings
+        const remainingSections = document.querySelectorAll("section");
+        remainingSections.forEach((section) => {
+          const heading = section.querySelector("h1, h2, h3");
+          const hasContent = section.textContent.trim().length > 0;
+
+          if (!heading && !hasContent) {
+            section.remove();
+            removedCount++;
+          }
+        });
+
+        // Remove completely duplicate sections (same content)
+        const allSections = document.querySelectorAll("section");
+        const seenContent = new Set();
+
+        allSections.forEach((section) => {
+          const content = section.outerHTML;
+          if (seenContent.has(content)) {
+            section.remove();
+            removedCount++;
+          } else {
+            seenContent.add(content);
+          }
+        });
+
+        // Log the results
+        console.log("Sections removed:", removedCount);
+        console.log(
+          "Final sections count:",
+          document.querySelectorAll("section").length
+        );
+        console.log("Unique headings found:", seenHeadings.size);
+      });
+    </script>
+  </body>
+</html>
