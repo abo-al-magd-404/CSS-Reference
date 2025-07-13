@@ -2338,6 +2338,78 @@ html {
 }
 
 /* responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 5%;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .nav-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-card {
+    padding: 25px;
+  }
+
+  .lesson-card h2 {
+    font-size: 2rem;
+  }
+  /* ديمو الألوان */
+  .color-demo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .flex-demo-container {
+    flex-direction: column;
+  }
+
+  .grid-demo-container {
+    grid-template-columns: 1fr;
+  }
+
+  .animation-demo-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .position-demo-container {
+    height: 150px;
+  }
+
+  /* Resources */
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-card {
+    padding: 15px;
+  }
+
+  .resources-tips {
+    padding: 20px;
+  }
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 0.95rem;
@@ -2410,6 +2482,35 @@ html {
   .important-demo {
     padding: 12px;
     font-size: 1rem;
+  }
+  .hero-visual {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .nav-card {
+    padding: 20px;
+  }
+
+  .lesson-card {
+    padding: 20px;
+  }
+
+  .code-block {
+    padding: 15px;
+  }
+
+  .code-block pre {
+    font-size: 0.8rem;
   }
 }
 
